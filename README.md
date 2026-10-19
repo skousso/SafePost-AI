@@ -1,11 +1,11 @@
-# 🚨 SafePost AI
+# SafePost AI
 
 ## SafePost AI – Intelligent content risk analysis before publishing  
 *Analyse intelligente des risques juridiques avant publication*
 
 ---
 
-## 🧠 Présentation
+## Présentation
 
 **SafePost AI** est un projet personnel de **data science et d’ingénierie** visant à analyser automatiquement des contenus textuels avant leur publication sur les réseaux sociaux, afin d’identifier les **risques juridiques potentiels**.
 
@@ -14,11 +14,11 @@ Le projet s’appuie sur :
 - des techniques de **traitement du langage naturel (NLP)**
 - une approche progressive allant du **rule-based** au **machine learning**
 
-🎯 L’objectif est de **prévenir les risques**, sensibiliser à l’usage responsable du digital et explorer les limites éthiques de l’IA appliquée au droit.
+L’objectif est de **prévenir les risques**, sensibiliser à l’usage responsable du digital et explorer les limites éthiques de l’IA appliquée au droit.
 
 ---
 
-## 🎯 Objectifs du projet
+## Objectifs du projet
 
 - Construire un **pipeline de traitement de texte**
 - Implémenter un **système de scoring de risque juridique**
@@ -30,7 +30,7 @@ Le projet s’appuie sur :
 
 ---
 
-## 🧩 Fonctionnalités (MVP)
+##  Fonctionnalités (MVP)
 
 - Analyse d’un texte saisi par l’utilisateur
 - Évaluation du niveau de risque :
@@ -55,6 +55,32 @@ Le projet s’appuie sur :
 
 ## 🗂️ Architecture du projet (prévisionnelle)
 
+```
+SafePost-AI/
+├── data/
+│   └── exemples.csv          # textes fictifs + catégorie de risque
+├── notebooks/
+│   └── 01_exploration.ipynb  # analyse du dataset
+├── src/
+│   ├── preprocessing.py      # nettoyage du texte
+│   ├── rules.py              # moteur de règles (mots-clés, motifs)
+│   ├── model.py              # modèle TF-IDF + classifieur
+│   └── app.py                # interface Streamlit
+├── tests/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Avancement
+
+- [x] Cadrage du projet et avertissement éthique
+- [ ] Dataset d'exemples (catégories de risque, textes fictifs)
+- [ ] Moteur de règles (version 1)
+- [ ] Modèle de machine learning (TF-IDF + régression logistique)
+- [ ] Comparaison règles / ML (précision, rappel, matrice de confusion)
+- [ ] Interface Streamlit
 
 ---
 
@@ -81,7 +107,7 @@ Le projet intègre une réflexion sur :
 
 ---
 
-## 🚀 Perspectives d’évolution
+## Perspectives d’évolution
 
 - Amélioration du modèle ML
 - Analyse multilingue
@@ -91,13 +117,13 @@ Le projet intègre une réflexion sur :
 
 ---
 
-## 👩🏽‍💻 Autrice
+## Autrice
 
-**Diane Sahouin Miss Dias**  
+**Diane Sahouin**  
 Projet personnel – Portfolio Data Science & Ingénierie
 
 ---
 
-## 🏷️ Tags
+##  Tags
 
 `python` `nlp` `machine-learning` `data-science` `legaltech` `ai-ethics`
